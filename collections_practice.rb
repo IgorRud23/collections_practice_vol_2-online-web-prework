@@ -22,6 +22,6 @@ end
 
 def count_elements(array)
   array.each_with_object({}) do |g, h|
-    h[g[:name]=>1] {|_,o,n| o+n}
+    h[g[:name]=>1] { |_,o,n| o+n}
   end
 end
