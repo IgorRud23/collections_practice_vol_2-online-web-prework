@@ -25,7 +25,3 @@ def count_elements(array)
     h[g[:name]=>1] {|_,o,n| o+n}
   end
 end
-
-
-end
-end
