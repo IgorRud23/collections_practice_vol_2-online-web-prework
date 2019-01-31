@@ -9,3 +9,9 @@ def contain_a(array)
     word.include?("a")
   end
 end
+
+def first_wa(array)
+  array.find do |word|
+    word.start_with?("wa")
+end
+end
