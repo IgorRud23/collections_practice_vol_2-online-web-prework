@@ -18,6 +18,6 @@ end
 
 def remove_non_strings(array)
   array.delete_if do |word|
-    word == 1
+    word -= [variable_non_containing_stirng]
   end
 end
