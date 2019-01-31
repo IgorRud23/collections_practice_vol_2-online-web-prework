@@ -24,3 +24,4 @@ def count_elements(array)
   array.count do |element|
     element > 0
 end
+end
