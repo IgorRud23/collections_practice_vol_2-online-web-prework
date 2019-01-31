@@ -19,3 +19,7 @@ end
 def remove_non_strings(array)
   array.grep(String)
 end
+
+def count_elements(array)
+  array.length
+end
