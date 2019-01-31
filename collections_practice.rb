@@ -17,7 +17,6 @@ end
 end
 
 def remove_non_strings(array)
-  array.delete_if do |word|
-    keep_if(word.is_a? String) 
+  array.grep(String)
   end
 end
