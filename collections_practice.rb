@@ -10,6 +10,6 @@ end
 
 def contain_a(array)
   array.select do |word|
-    word == "a"
+    return word.include?("a")  
   end
 end
