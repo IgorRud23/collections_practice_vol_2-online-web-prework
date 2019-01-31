@@ -3,5 +3,7 @@ def begins_with_r(array)
 if letter.start_with?("r")
   true
   letter += 1
+else
+  false 
 end
 end
