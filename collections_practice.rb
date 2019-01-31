@@ -4,5 +4,6 @@ def begins_with_r(array)
     true
   else letter.start_with?("h")
     false
+  end
 end
 end
