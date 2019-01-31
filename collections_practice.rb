@@ -32,3 +32,9 @@ data[0].values.map.with_index do |r, i|
   keys[i].merge(r)
   end
 end
+
+def find_cool(cool)
+  cool.select do |hash|
+    hash[:temperature] == "cool"
+  end
+end
