@@ -18,6 +18,6 @@ end
 
 def remove_non_strings(array)
   array.delete_if do |word|
-    word.is_a? String 
+    keep_if(word.is_a? String) 
   end
 end
