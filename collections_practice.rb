@@ -12,3 +12,4 @@ def contain_a(array)
   array.select("a")
 end
 end
+end
