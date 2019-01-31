@@ -18,5 +18,4 @@ end
 
 def remove_non_strings(array)
   array.grep(String)
-  end
 end
