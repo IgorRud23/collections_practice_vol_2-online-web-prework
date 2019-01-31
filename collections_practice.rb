@@ -26,3 +26,9 @@ def count_elements(array)
     k.merge(count: v.length)
   end
 end
+
+def merge_data(keys, data)
+  m = h.each_with_object({}) do |(t,y),u|
+    u[t] = {:first_name => t }.merge(y)
+  end
+end
