@@ -5,7 +5,7 @@ end
 end
 
 def contain_a(array)
-  array.find do |word|
+  array.find_all do |word|
     word.include?("a")
   end
 end
