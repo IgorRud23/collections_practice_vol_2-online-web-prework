@@ -14,4 +14,3 @@ def contain_a(array)
     return word
   end
 end
-end
