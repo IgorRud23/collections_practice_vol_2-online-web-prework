@@ -10,8 +10,6 @@ end
 
 def contain_a(array)
   array.select do |word|
-    if word = word.include?("a")
-      return word
-  end
+    word.even?
 end
 end
