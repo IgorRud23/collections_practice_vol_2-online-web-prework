@@ -1,8 +1,8 @@
 def begins_with_r(array)
   array.any? do |letter|
-  if letter += 1 == letter.start_with?("r")
+  if letter == letter.start_with?("r")
     true
-  else 
+  else
     false
   end
 end
