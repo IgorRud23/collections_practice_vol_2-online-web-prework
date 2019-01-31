@@ -1,5 +1,6 @@
 def begins_with_r(array)
-if  array.include?("r") += "1"
+array.each do |word|
+if  word.start_with?("r")
 return  true
 else
 return  false
