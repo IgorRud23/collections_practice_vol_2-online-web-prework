@@ -21,7 +21,11 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  array.count do |element|
-    element > 0
+  array.each_with_object({}) do |g, h|
+    h[g[:name]=>1] {|_,o,n| o+n}
+  end
+end
+
+
 end
 end
