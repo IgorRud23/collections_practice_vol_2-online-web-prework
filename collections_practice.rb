@@ -1,5 +1,8 @@
 def begins_with_r(array)
-  array.each do |letter|
-  while letter == letter.start_wirh?("r")
+  array.any? do |letter|
+  if letter.start_with?("r")
+    true
+  else
+    false
 end
 end
