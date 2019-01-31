@@ -28,7 +28,7 @@ def count_elements(array)
 end
 
 def merge_data(keys, data)
-  m = h.each_with_object({}) do |(t,y),u|
+  m = data.each_with_object({}) do |(t,y),u|
     u[t] = {:first_name => t }.merge(y)
   end
 end
