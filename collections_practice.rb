@@ -29,6 +29,6 @@ end
 
 def merge_data(keys, data)
   m = data.each_with_object({}) do |(t,y),u|
-    u[t] = {:first_name => t }.merge(y)
+    u[t] = {keys => t }.merge(y)
   end
 end
